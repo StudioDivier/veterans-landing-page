@@ -1,0 +1,150 @@
+@import "common/colors";
+@import "common/screen";
+
+.banner-main {
+  background-image: url("../img/banner-main-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  .banner__text {
+    padding-top: 110px;
+    padding-bottom: 110px;
+    padding-right: 270px;
+    color: white;
+
+    .text__title {
+      h2 {
+
+        font-weight: 300;
+        font-size: 86px;
+      }
+
+      p {
+        font-size: 55px;
+        font-weight: 300;
+
+        span {
+          color: $color_main;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .text__description {
+      p {
+        padding-top: 44px;
+        font-size: 25px;
+        font-weight: 300;
+
+        span {
+          font-weight: bold;
+        }
+      }
+    }
+  }
+}
+
+@include max-w(1024) {
+  .banner-main {
+    .banner__text {
+      padding-right: 0;
+      padding-bottom: 185px;
+      padding-top: 100px;
+
+      .text__title {
+        h2 {
+          font-size: 85px;
+        }
+
+        p {
+          font-size: 45px;
+        }
+      }
+
+      .text__description {
+        p {
+          font-size: 29px;
+        }
+      }
+    }
+  }
+}
+
+@include max-w(768) {
+  .banner-main {
+    .banner__text {
+      padding-right: 0;
+      padding-bottom: 150px;
+      padding-top: 140px;
+
+      .text__title {
+        h2 {
+          font-size: 65px;
+        }
+
+        p {
+          font-size: 34px;
+        }
+      }
+
+      .text__description {
+        p {
+          font-size: 22px;
+        }
+      }
+    }
+  }
+}
+
+@include max-w(425) {
+  .banner-main {
+    .banner__text {
+      padding-right: 0;
+      padding-bottom: 65px;
+      padding-top: 65px;
+
+      .text__title {
+        h2 {
+          font-size: 45px;
+        }
+
+        p {
+          font-size: 25px;
+        }
+      }
+
+      .text__description {
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@include max-w(375) {
+  .banner-main {
+    .banner__text {
+      padding-right: 0;
+      padding-bottom: 50px;
+      padding-top: 65px;
+
+      .text__title {
+        h2 {
+          font-size: 35px;
+        }
+
+        p {
+          font-size: 20px;
+        }
+      }
+
+      .text__description {
+        p {
+          font-size: 17px;
+        }
+      }
+    }
+  }
+}
