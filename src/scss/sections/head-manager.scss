@@ -1,0 +1,72 @@
+@import "common/colors";
+@import "common/screen";
+
+.head-manager {
+  .head__title {
+    background-color: $color_main;
+    padding-top: 47px;
+    padding-bottom: 60px;
+
+    .container {
+
+      .title {
+        display: flex;
+        justify-content: left;
+        padding-left: 30px;
+
+        .title__logo {
+
+        }
+
+        .title__text {
+          padding-left: 70px;
+
+          h5 {
+            color: white;
+          }
+        }
+      }
+    }
+  }
+
+  .head__down {
+    background-color: #f5f5f5;
+    padding: 0;
+
+    .container {
+      .head__main {
+        .head__left {
+          .logo-photo {
+
+            position: absolute;
+            top: -35px;
+            left: 4px;
+
+          }
+
+          .photo-headmanager {
+
+            position: absolute;
+            top: -22px;
+            left: 29px;
+
+          }
+        }
+
+        .head__right {
+          .head-text {
+            h4 {
+              text-transform: uppercase;
+            }
+
+            p {
+
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+}

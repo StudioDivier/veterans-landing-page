@@ -1,0 +1,68 @@
+@import "common/colors";
+@import "common/screen";
+
+.about {
+  background-color: $color_bg;
+  padding: 25px 0;
+
+  .container {
+
+    .subtitle {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+
+      p {
+        color: $color_main;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 0;
+
+      }
+
+      h2 {
+        color: black;
+        font-size: 60px;
+      }
+    }
+
+    .about__left{
+      img{
+        width: 100%;
+      }
+    }
+
+    .about__right {
+      p {
+        font-size: 18px;
+      }
+
+      span {
+        font-weight: bold;
+      }
+
+      .text-top {
+        padding: 15px 0;
+      }
+
+      .direction {
+        display: flex;
+
+        img {
+          margin: 25px 0;
+        }
+
+        p {
+          font-size: 16px;
+        }
+
+        h6 {
+          text-transform: uppercase;
+          font-weight: bold;
+        }
+
+      }
+    }
+  }
+}
+
