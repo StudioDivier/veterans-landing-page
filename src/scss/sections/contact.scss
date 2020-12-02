@@ -1,0 +1,213 @@
+@import "common/colors";
+@import "common/screen";
+
+.contact {
+  padding-top: 45px;
+
+  .subtitle {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+    p {
+      color: $color_main;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 0;
+
+    }
+
+    h2 {
+      color: black;
+      font-size: 60px;
+    }
+  }
+
+  .contact-phone-email {
+    margin-bottom: 45px;
+    margin-top: 70px;
+    display: flex;
+
+    .contact-elem {
+      padding-right: 75px;
+      display: flex;
+
+      .con-elem {
+        padding-left: 30px;
+
+        p {
+          margin-bottom: 0;
+          font-size: 18px;
+          font-weight: 300;
+          text-transform: uppercase;
+
+          span {
+            font-weight: 700;
+            text-transform: none;
+          }
+        }
+      }
+    }
+  }
+
+  .office {
+    padding: 45px 0;
+    background-color: $color_bg;
+
+    p {
+      font-size: 18px;
+      font-weight: 300;
+      text-transform: uppercase;
+    }
+
+    .col-lg-4 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+      p {
+        color: $color_main;
+        font-size: 54px;
+        font-weight: 300;
+        margin-bottom: 0;
+      }
+
+      .office-text {
+        padding-left: 15px;
+
+        p {
+          color: black;
+          margin-bottom: 0;
+          font-size: 15px;
+          font-weight: 300;
+          text-transform: uppercase;
+
+          span {
+            font-weight: 700;
+            text-transform: none;
+          }
+        }
+      }
+    }
+  }
+
+  .map {
+    width: 100%;
+    height: 450px;
+
+    iframe {
+      width: 100%;
+      height: 100%;
+    }
+  }
+}
+
+@include max-w(425) {
+  .contact {
+    padding-top: 45px;
+
+    .subtitle {
+      display: flex;
+      flex-direction: column;
+      padding-top: 10px;
+
+      p {
+        color: $color_main;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 0;
+
+      }
+
+      h2 {
+        color: black;
+        font-size: 60px;
+      }
+    }
+
+    .contact-phone-email {
+      margin-bottom: 20px;
+      margin-top: 35px;
+      display: flex;
+      flex-direction: column;
+
+      .contact-elem {
+        padding-right: 75px;
+        padding-top: 25px;
+        display: flex;
+
+        .con-elem {
+          padding-left: 15px;
+
+          p {
+            margin-bottom: 0;
+            font-size: 18px;
+            font-weight: 300;
+            text-transform: uppercase;
+
+
+            span {
+              font-size: 14px;
+              font-weight: 700;
+              text-transform: none;
+            }
+
+          }
+        }
+      }
+    }
+
+    .office {
+      padding: 45px 0;
+      background-color: $color_bg;
+
+      p {
+        font-size: 18px;
+        font-weight: 300;
+        text-transform: uppercase;
+      }
+
+      .col-lg-4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+
+        p {
+          color: $color_main;
+          font-size: 45px;
+          font-weight: 300;
+          margin-bottom: 0;
+        }
+
+        .office-text {
+          padding-left: 15px;
+
+          p {
+            color: black;
+            margin-bottom: 0;
+            font-size: 12px;
+            font-weight: 300;
+            text-transform: uppercase;
+
+            span {
+              font-weight: 700;
+              text-transform: none;
+            }
+          }
+        }
+      }
+    }
+
+    .map {
+      width: 100%;
+      height: 250px;
+
+      iframe {
+        width: 100%;
+        height: 100%;
+      }
+    }
+  }
+}

@@ -861,6 +861,9 @@ header nav {
       text-transform: uppercase;
       font-weight: bold; }
 
+.head-manager .row {
+  margin-right: 0; }
+
 .head-manager .head__title {
   background-color: #ac956b;
   padding-top: 47px;
@@ -1749,6 +1752,354 @@ header nav {
         font-size: 18px; }
       .recomend .rec .rec__text p {
         font-size: 16px; } }
+
+.form {
+  background-image: url("/img/form-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 45px 0; }
+  .form .subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 10px; }
+    .form .subtitle p {
+      color: #ac956b;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 0; }
+    .form .subtitle h2 {
+      color: white;
+      font-weight: 500;
+      font-size: 60px; }
+    .form .subtitle .form__subtext {
+      color: white;
+      font-size: 18px;
+      font-weight: 300;
+      text-transform: none;
+      padding-top: 30px; }
+  .form .form-fields {
+    padding-top: 90px; }
+    .form .form-fields .form-left, .form .form-fields .form-right {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .form .form-fields .form-left input, .form .form-fields .form-right input {
+        padding-left: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(0, 0, 0, 0);
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        border: 1px solid white;
+        margin-top: 25px;
+        color: white; }
+        .form .form-fields .form-left input::-webkit-input-placeholder, .form .form-fields .form-right input::-webkit-input-placeholder {
+          color: white; }
+        .form .form-fields .form-left input::-moz-placeholder, .form .form-fields .form-right input::-moz-placeholder {
+          color: white; }
+        .form .form-fields .form-left input:-ms-input-placeholder, .form .form-fields .form-right input:-ms-input-placeholder {
+          color: white; }
+        .form .form-fields .form-left input::-ms-input-placeholder, .form .form-fields .form-right input::-ms-input-placeholder {
+          color: white; }
+        .form .form-fields .form-left input::placeholder, .form .form-fields .form-right input::placeholder {
+          color: white; }
+        .form .form-fields .form-left input:focus, .form .form-fields .form-right input:focus {
+          outline: none; }
+      .form .form-fields .form-left button, .form .form-fields .form-right button {
+        background-color: #ac956b;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 25px;
+        border: none;
+        font-weight: 500;
+        font-size: 18px; }
+        .form .form-fields .form-left button:focus, .form .form-fields .form-right button:focus {
+          outline: none; }
+  .form .row {
+    padding-top: 22px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .form .row p {
+      color: white;
+      font-size: 12px;
+      font-weight: 300; }
+
+@media (max-width: 425px) {
+  .form {
+    background-image: url("/img/form-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 45px 0; }
+    .form .subtitle {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding-top: 10px; }
+      .form .subtitle p {
+        color: #ac956b;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 0; }
+      .form .subtitle h2 {
+        color: white;
+        font-weight: 500;
+        font-size: 26px; }
+      .form .subtitle .form__subtext {
+        color: white;
+        font-size: 14px;
+        font-weight: 300;
+        text-transform: none;
+        padding-top: 30px; }
+    .form .form-fields {
+      padding-top: 90px; }
+      .form .form-fields .form-left, .form .form-fields .form-right {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column; }
+        .form .form-fields .form-left input, .form .form-fields .form-right input {
+          padding-left: 20px;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          background-color: rgba(0, 0, 0, 0);
+          -webkit-box-sizing: border-box;
+                  box-sizing: border-box;
+          border: 1px solid white;
+          margin-top: 25px;
+          color: white; }
+          .form .form-fields .form-left input::-webkit-input-placeholder, .form .form-fields .form-right input::-webkit-input-placeholder {
+            color: white; }
+          .form .form-fields .form-left input::-moz-placeholder, .form .form-fields .form-right input::-moz-placeholder {
+            color: white; }
+          .form .form-fields .form-left input:-ms-input-placeholder, .form .form-fields .form-right input:-ms-input-placeholder {
+            color: white; }
+          .form .form-fields .form-left input::-ms-input-placeholder, .form .form-fields .form-right input::-ms-input-placeholder {
+            color: white; }
+          .form .form-fields .form-left input::placeholder, .form .form-fields .form-right input::placeholder {
+            color: white; }
+          .form .form-fields .form-left input:focus, .form .form-fields .form-right input:focus {
+            outline: none; }
+        .form .form-fields .form-left button, .form .form-fields .form-right button {
+          background-color: #ac956b;
+          padding-top: 10px;
+          padding-bottom: 10px;
+          margin-top: 25px;
+          border: none;
+          font-weight: 500;
+          font-size: 18px; }
+          .form .form-fields .form-left button:focus, .form .form-fields .form-right button:focus {
+            outline: none; }
+    .form .row {
+      padding-top: 22px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      text-align: center; }
+      .form .row p {
+        color: white;
+        font-size: 10px;
+        font-weight: 300;
+        padding: 0 15px; } }
+
+.contact {
+  padding-top: 45px; }
+  .contact .subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 10px; }
+    .contact .subtitle p {
+      color: #ac956b;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 0; }
+    .contact .subtitle h2 {
+      color: black;
+      font-size: 60px; }
+  .contact .contact-phone-email {
+    margin-bottom: 45px;
+    margin-top: 70px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex; }
+    .contact .contact-phone-email .contact-elem {
+      padding-right: 75px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; }
+      .contact .contact-phone-email .contact-elem .con-elem {
+        padding-left: 30px; }
+        .contact .contact-phone-email .contact-elem .con-elem p {
+          margin-bottom: 0;
+          font-size: 18px;
+          font-weight: 300;
+          text-transform: uppercase; }
+          .contact .contact-phone-email .contact-elem .con-elem p span {
+            font-weight: 700;
+            text-transform: none; }
+  .contact .office {
+    padding: 45px 0;
+    background-color: #f5f5f5; }
+    .contact .office p {
+      font-size: 18px;
+      font-weight: 300;
+      text-transform: uppercase; }
+    .contact .office .col-lg-4 {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .contact .office .col-lg-4 p {
+        color: #ac956b;
+        font-size: 54px;
+        font-weight: 300;
+        margin-bottom: 0; }
+      .contact .office .col-lg-4 .office-text {
+        padding-left: 15px; }
+        .contact .office .col-lg-4 .office-text p {
+          color: black;
+          margin-bottom: 0;
+          font-size: 15px;
+          font-weight: 300;
+          text-transform: uppercase; }
+          .contact .office .col-lg-4 .office-text p span {
+            font-weight: 700;
+            text-transform: none; }
+  .contact .map {
+    width: 100%;
+    height: 450px; }
+    .contact .map iframe {
+      width: 100%;
+      height: 100%; }
+
+@media (max-width: 425px) {
+  .contact {
+    padding-top: 45px; }
+    .contact .subtitle {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding-top: 10px; }
+      .contact .subtitle p {
+        color: #ac956b;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 0; }
+      .contact .subtitle h2 {
+        color: black;
+        font-size: 60px; }
+    .contact .contact-phone-email {
+      margin-bottom: 20px;
+      margin-top: 35px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .contact .contact-phone-email .contact-elem {
+        padding-right: 75px;
+        padding-top: 25px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex; }
+        .contact .contact-phone-email .contact-elem .con-elem {
+          padding-left: 15px; }
+          .contact .contact-phone-email .contact-elem .con-elem p {
+            margin-bottom: 0;
+            font-size: 18px;
+            font-weight: 300;
+            text-transform: uppercase; }
+            .contact .contact-phone-email .contact-elem .con-elem p span {
+              font-size: 14px;
+              font-weight: 700;
+              text-transform: none; }
+    .contact .office {
+      padding: 45px 0;
+      background-color: #f5f5f5; }
+      .contact .office p {
+        font-size: 18px;
+        font-weight: 300;
+        text-transform: uppercase; }
+      .contact .office .col-lg-4 {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center; }
+        .contact .office .col-lg-4 p {
+          color: #ac956b;
+          font-size: 45px;
+          font-weight: 300;
+          margin-bottom: 0; }
+        .contact .office .col-lg-4 .office-text {
+          padding-left: 15px; }
+          .contact .office .col-lg-4 .office-text p {
+            color: black;
+            margin-bottom: 0;
+            font-size: 12px;
+            font-weight: 300;
+            text-transform: uppercase; }
+            .contact .office .col-lg-4 .office-text p span {
+              font-weight: 700;
+              text-transform: none; }
+    .contact .map {
+      width: 100%;
+      height: 250px; }
+      .contact .map iframe {
+        width: 100%;
+        height: 100%; } }
 
 footer .footer__top {
   background-color: #f5f5f5;

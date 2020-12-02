@@ -2,10 +2,15 @@
 @import "common/screen";
 
 .head-manager {
+  .row {
+    margin-right: 0;
+  }
+
   .head__title {
     background-color: $color_main;
     padding-top: 47px;
     padding-bottom: 60px;
+
 
     .container {
 
@@ -143,7 +148,8 @@
               position: relative;
               top: -22px;
               left: 22px;
-              img{
+
+              img {
                 width: 100%;
               }
 
@@ -232,7 +238,8 @@
               position: relative;
               top: -22px;
               left: 46px;
-              img{
+
+              img {
                 width: 100%;
               }
 
