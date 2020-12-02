@@ -1,0 +1,305 @@
+@import "common/colors";
+@import "common/screen";
+
+.recomend {
+  padding: 45px 0;
+  background-color: $color_bg;
+
+  .subtitle {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+    p {
+      color: $color_main;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 0;
+
+    }
+
+    h2 {
+      color: black;
+      font-size: 60px;
+    }
+  }
+
+  .rec {
+    display: flex;
+    flex-direction: column;
+
+    .card_num {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      justify-items: center;
+      padding: 15px;
+      margin: 0 30px;
+
+      p {
+        color: white;
+        font-size: 36px;
+        font-weight: 300;
+        padding: 0 10px;
+        margin-bottom: 0;
+      }
+    }
+
+    .row {
+      background-color: white;
+      margin-bottom: 15px;
+      padding: 20px 30px;
+      margin-left:10px;
+      margin-right: 10px;
+    }
+
+    .chet {
+      .card_num {
+        background-color: $color_main;
+      }
+    }
+
+    .nechet {
+      .card_num {
+        background-color: $color_fsb;
+      }
+    }
+
+    .rec__text {
+      h3 {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+@include max-w(1024){
+  .recomend {
+  padding: 45px 0;
+  background-color: $color_bg;
+
+  .subtitle {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+    p {
+      color: $color_main;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 0;
+
+    }
+
+    h2 {
+      color: black;
+      font-size: 60px;
+    }
+  }
+
+  .rec {
+    display: flex;
+    flex-direction: column;
+
+    .card_num {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      justify-items: center;
+      padding: 15px;
+      margin: 0 12px;
+
+      p {
+        color: white;
+        font-size: 36px;
+        font-weight: 300;
+        padding: 0 10px;
+        margin-bottom: 0;
+      }
+    }
+
+    .row {
+      background-color: white;
+      margin-bottom: 15px;
+      padding: 20px 30px;
+      margin-left:10px;
+      margin-right: 10px;
+    }
+
+    .chet {
+      .card_num {
+        background-color: $color_main;
+      }
+    }
+
+    .nechet {
+      .card_num {
+        background-color: $color_fsb;
+      }
+    }
+
+    .rec__text {
+      h3 {
+        font-size: 24px;
+      }
+    }
+  }
+}
+}
+
+@include max-w(768) {
+  .recomend {
+  padding: 45px 0;
+  background-color: $color_bg;
+
+  .subtitle {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+    p {
+      color: $color_main;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 0;
+
+    }
+
+    h2 {
+      color: black;
+      font-size: 60px;
+    }
+  }
+
+  .rec {
+    display: flex;
+    flex-direction: column;
+
+    .card_num {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      justify-items: center;
+      padding: 9px 15px;;
+      margin: 0 0;
+
+      p {
+        color: white;
+        font-size: 36px;
+        font-weight: 300;
+        padding: 0 10px;
+        margin-bottom: 0;
+      }
+    }
+
+    .row {
+      background-color: white;
+      margin-bottom: 15px;
+      padding: 20px 30px;
+      margin-left:10px;
+      margin-right: 10px;
+    }
+
+    .chet {
+      .card_num {
+        background-color: $color_main;
+      }
+    }
+
+    .nechet {
+      .card_num {
+        background-color: $color_fsb;
+      }
+    }
+
+    .rec__text {
+      h3 {
+        font-size: 24px;
+      }
+    }
+  }
+}
+}
+
+@include max-w(425) {
+  .recomend {
+  padding: 45px 0;
+  background-color: $color_bg;
+
+  .subtitle {
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+
+    p {
+      color: $color_main;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 0;
+      font-size: 12px;
+
+    }
+
+    h2 {
+      color: black;
+      font-size: 26px;
+    }
+  }
+
+  .rec {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    .card_num {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      justify-items: center;
+      padding: 15px;
+      margin: 10px 0;
+
+      p {
+        color: white;
+        font-size: 36px;
+        font-weight: 300;
+        padding: 0 10px;
+        margin-bottom: 0;
+      }
+    }
+
+    .row {
+      background-color: white;
+      margin-bottom: 15px;
+      padding: 20px 10px;
+      margin-left:0;
+      margin-right: 0;
+    }
+
+    .chet {
+      .card_num {
+        background-color: $color_main;
+      }
+    }
+
+    .nechet {
+      .card_num {
+        background-color: $color_fsb;
+      }
+    }
+
+    .rec__text {
+      h3 {
+        font-size: 18px;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+  }
+}
+}

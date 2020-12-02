@@ -1261,7 +1261,7 @@ header nav {
 @media (max-width: 425px) {
   .work {
     background-color: #f5f5f5;
-    padding-bottom: 180px; }
+    padding-bottom: 100px; }
     .work .container {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -1382,6 +1382,373 @@ header nav {
       .geo .geo-blocks .geo-text-block .text__title {
         text-transform: uppercase;
         font-weight: bold; }
+
+@media (max-width: 768px) {
+  .geo {
+    background-image: url("/img/geo-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 45px; }
+    .geo .geo-line {
+      margin-left: 50px;
+      background-color: #ac956b;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+      bottom: 90px;
+      padding: 20px 0;
+      padding-left: 30px; }
+      .geo .geo-line .subtitle {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding-left: 25px; }
+        .geo .geo-line .subtitle p {
+          color: white;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 16px;
+          margin-bottom: 0; }
+        .geo .geo-line .subtitle h2 {
+          font-size: 49px; }
+    .geo .geo-blocks {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row; }
+      .geo .geo-blocks .geo-text-block {
+        background-color: white;
+        border: 4px solid #ac956b;
+        padding: 15px;
+        height: 100%; }
+        .geo .geo-blocks .geo-text-block p {
+          font-size: 18px; }
+        .geo .geo-blocks .geo-text-block .text__title {
+          text-transform: uppercase;
+          font-weight: bold;
+          height: 25%; } }
+
+@media (max-width: 425px) {
+  .geo {
+    background-image: url("/img/geo-bg.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 45px; }
+    .geo .geo-line {
+      margin-left: 30px;
+      background-color: #ac956b;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      position: relative;
+      bottom: 70px;
+      padding: 10px 0;
+      padding-left: 30px; }
+      .geo .geo-line img {
+        width: 25%; }
+      .geo .geo-line .subtitle {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        padding-left: 20px; }
+        .geo .geo-line .subtitle p {
+          color: white;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-size: 10px;
+          margin-bottom: 0; }
+        .geo .geo-line .subtitle h2 {
+          font-size: 28px; }
+    .geo .geo-blocks {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .geo .geo-blocks .geo-text-block {
+        background-color: white;
+        border: 4px solid #ac956b;
+        padding: 12px;
+        height: 100%;
+        margin-bottom: 20px; }
+        .geo .geo-blocks .geo-text-block p {
+          font-size: 12px; }
+        .geo .geo-blocks .geo-text-block .text__title {
+          text-transform: uppercase;
+          font-weight: bold; } }
+
+.recomend {
+  padding: 45px 0;
+  background-color: #f5f5f5; }
+  .recomend .subtitle {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding-top: 10px; }
+    .recomend .subtitle p {
+      color: #ac956b;
+      text-transform: uppercase;
+      font-weight: 700;
+      margin-bottom: 0; }
+    .recomend .subtitle h2 {
+      color: black;
+      font-size: 60px; }
+  .recomend .rec {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+    .recomend .rec .card_num {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      text-align: center;
+      justify-items: center;
+      padding: 15px;
+      margin: 0 30px; }
+      .recomend .rec .card_num p {
+        color: white;
+        font-size: 36px;
+        font-weight: 300;
+        padding: 0 10px;
+        margin-bottom: 0; }
+    .recomend .rec .row {
+      background-color: white;
+      margin-bottom: 15px;
+      padding: 20px 30px;
+      margin-left: 10px;
+      margin-right: 10px; }
+    .recomend .rec .chet .card_num {
+      background-color: #ac956b; }
+    .recomend .rec .nechet .card_num {
+      background-color: #071629; }
+    .recomend .rec .rec__text h3 {
+      font-size: 24px; }
+
+@media (max-width: 1024px) {
+  .recomend {
+    padding: 45px 0;
+    background-color: #f5f5f5; }
+    .recomend .subtitle {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding-top: 10px; }
+      .recomend .subtitle p {
+        color: #ac956b;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 0; }
+      .recomend .subtitle h2 {
+        color: black;
+        font-size: 60px; }
+    .recomend .rec {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .recomend .rec .card_num {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        justify-items: center;
+        padding: 15px;
+        margin: 0 12px; }
+        .recomend .rec .card_num p {
+          color: white;
+          font-size: 36px;
+          font-weight: 300;
+          padding: 0 10px;
+          margin-bottom: 0; }
+      .recomend .rec .row {
+        background-color: white;
+        margin-bottom: 15px;
+        padding: 20px 30px;
+        margin-left: 10px;
+        margin-right: 10px; }
+      .recomend .rec .chet .card_num {
+        background-color: #ac956b; }
+      .recomend .rec .nechet .card_num {
+        background-color: #071629; }
+      .recomend .rec .rec__text h3 {
+        font-size: 24px; } }
+
+@media (max-width: 768px) {
+  .recomend {
+    padding: 45px 0;
+    background-color: #f5f5f5; }
+    .recomend .subtitle {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding-top: 10px; }
+      .recomend .subtitle p {
+        color: #ac956b;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 0; }
+      .recomend .subtitle h2 {
+        color: black;
+        font-size: 60px; }
+    .recomend .rec {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .recomend .rec .card_num {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        justify-items: center;
+        padding: 9px 15px;
+        margin: 0 0; }
+        .recomend .rec .card_num p {
+          color: white;
+          font-size: 36px;
+          font-weight: 300;
+          padding: 0 10px;
+          margin-bottom: 0; }
+      .recomend .rec .row {
+        background-color: white;
+        margin-bottom: 15px;
+        padding: 20px 30px;
+        margin-left: 10px;
+        margin-right: 10px; }
+      .recomend .rec .chet .card_num {
+        background-color: #ac956b; }
+      .recomend .rec .nechet .card_num {
+        background-color: #071629; }
+      .recomend .rec .rec__text h3 {
+        font-size: 24px; } }
+
+@media (max-width: 425px) {
+  .recomend {
+    padding: 45px 0;
+    background-color: #f5f5f5; }
+    .recomend .subtitle {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      padding-top: 10px; }
+      .recomend .subtitle p {
+        color: #ac956b;
+        text-transform: uppercase;
+        font-weight: 700;
+        margin-bottom: 0;
+        font-size: 12px; }
+      .recomend .subtitle h2 {
+        color: black;
+        font-size: 26px; }
+    .recomend .rec {
+      margin-top: 20px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column; }
+      .recomend .rec .card_num {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        text-align: center;
+        justify-items: center;
+        padding: 15px;
+        margin: 10px 0; }
+        .recomend .rec .card_num p {
+          color: white;
+          font-size: 36px;
+          font-weight: 300;
+          padding: 0 10px;
+          margin-bottom: 0; }
+      .recomend .rec .row {
+        background-color: white;
+        margin-bottom: 15px;
+        padding: 20px 10px;
+        margin-left: 0;
+        margin-right: 0; }
+      .recomend .rec .chet .card_num {
+        background-color: #ac956b; }
+      .recomend .rec .nechet .card_num {
+        background-color: #071629; }
+      .recomend .rec .rec__text h3 {
+        font-size: 18px; }
+      .recomend .rec .rec__text p {
+        font-size: 16px; } }
 
 footer .footer__top {
   background-color: #f5f5f5;

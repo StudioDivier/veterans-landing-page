@@ -58,3 +58,129 @@
     }
   }
 }
+
+@include max-w(768) {
+  .geo {
+  background-image: url("/img/geo-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 45px;
+
+  .geo-line {
+    margin-left: 50px;
+    background-color: $color_main;
+    display: flex;
+    position: relative;
+    bottom: 90px;
+    padding: 20px 0;
+    padding-left: 30px;
+
+    .subtitle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 25px;
+
+      p {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 0;
+      }
+
+      h2 {
+        font-size: 49px;
+      }
+    }
+  }
+
+  .geo-blocks {
+    display: flex;
+    flex-direction: row;
+
+    .geo-text-block {
+      background-color: white;
+      border: 4px solid $color_main;
+      padding: 15px;
+      height: 100%;
+
+      p {
+        font-size: 18px;
+      }
+
+      .text__title {
+        text-transform: uppercase;
+        font-weight: bold;
+        height: 25%;
+      }
+    }
+  }
+}
+}
+
+@include max-w(425){
+  .geo {
+  background-image: url("/img/geo-bg.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 45px;
+
+  .geo-line {
+    margin-left: 30px;
+    background-color: $color_main;
+    display: flex;
+    position: relative;
+    bottom: 70px;
+    padding: 10px 0;
+    padding-left: 30px;
+
+    img {
+      width: 25%;
+    }
+
+    .subtitle {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 20px;
+
+      p {
+        color: white;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 10px;
+        margin-bottom: 0;
+      }
+
+      h2 {
+        font-size: 28px;
+      }
+    }
+  }
+
+  .geo-blocks {
+    display: flex;
+    flex-direction: column;
+
+    .geo-text-block {
+      background-color: white;
+      border: 4px solid $color_main;
+      padding: 12px;
+      height: 100%;
+      margin-bottom: 20px;
+
+      p {
+        font-size: 12px;
+      }
+
+      .text__title {
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+    }
+  }
+}
+}
